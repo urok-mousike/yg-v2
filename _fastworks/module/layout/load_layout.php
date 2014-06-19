@@ -5,7 +5,7 @@
 	//loadLayout("pages/index.php","layout.htm");
 	//loadLayout("header","layout.htm");
 	//loadLayout("footer","layout.htm",);
-	function loadLayout($get_where="",$layoutPath="layout/",$layoutFile="layout.php") {
+    	function loadLayout($get_where="",$layoutPath="layout/",$layoutFile="layout.php") {
 		global $__;
 		
 		$strArray = file ( $layoutPath.$layoutFile );

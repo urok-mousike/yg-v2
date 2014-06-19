@@ -1,4 +1,4 @@
 <?php
-    include "mysql.php";
-    include "mysqli.php";
+    //include_once "mysql.php";
+    include_once "mysqli.php"; // Use Only Mysql_I class
 ?>
