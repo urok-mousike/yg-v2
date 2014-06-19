@@ -6,6 +6,6 @@
     include_once "_core/common.php";
 
     loadModule("db");
+    loadModule("switch");
     loadModule("layout");
-    loadLayout($__['pathPage'].$__['m'].".php");
 ?>
